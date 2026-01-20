@@ -1,0 +1,22 @@
+{
+  "name": "05-astro-http",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "dev:remote": "astro dev --remote",
+    "build": "astro build --remote",
+    "check": "astro check",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/db": "^0.18.3",
+    "@astrojs/mdx": "^4.3.13",
+    "@astrojs/netlify": "^6.6.4",
+    "@astrojs/rss": "^4.0.15",
+    "@astrojs/sitemap": "^3.7.0",
+    "astro": "^5.16.11",
+    "sharp": "^0.34.3"
+  }
+}
