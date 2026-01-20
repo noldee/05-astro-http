@@ -8,7 +8,8 @@
     "build": "astro build --remote",
     "check": "astro check",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "db:push": "astro db push --remote"
   },
   "dependencies": {
     "@astrojs/db": "^0.18.3",
@@ -16,7 +17,15 @@
     "@astrojs/netlify": "^6.6.4",
     "@astrojs/rss": "^4.0.15",
     "@astrojs/sitemap": "^3.7.0",
+    "@astrojs/vue": "^5.1.4",
+    "@types/canvas-confetti": "^1.9.0",
     "astro": "^5.16.11",
-    "sharp": "^0.34.3"
+    "canvas-confetti": "^1.9.4",
+    "lodash.debounce": "^4.0.8",
+    "sharp": "^0.34.3",
+    "vue": "^3.5.27"
+  },
+  "devDependencies": {
+    "@types/lodash.debounce": "^4.0.9"
   }
 }
